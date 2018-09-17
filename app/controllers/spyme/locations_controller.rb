@@ -20,7 +20,7 @@ module Spyme
     end
 
     def location_params
-      params.permit(:location)
+      params.required(:location)
     end
   end
 end
